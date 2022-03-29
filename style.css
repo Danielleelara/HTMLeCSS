@@ -1,5 +1,6 @@
 body{
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 header {
@@ -139,6 +140,7 @@ thead {
   background: #555555;
   color: white;
   font-weight: border;
+  width: 100%;
 }
 
 td, th {
@@ -247,6 +249,9 @@ td, th {
   }
   h1{
     text-align: center;
+  }
+  .caixa{
+    position: static;
   }
   nav {
     position: static;
